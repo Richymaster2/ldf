@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571421447727",
+    "project_id": "ldfp-b4c21",
+    "storage_bucket": "ldfp-b4c21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571421447727:android:bfac5099b87401cdce18da",
+        "android_client_info": {
+          "package_name": "com.richard.ldf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571421447727-8g69ue3s9b1mmff7qk3a4ju1p9clb438.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ5CHZ2lBu1Jc8kfgepfu8ZbcIl-q18pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571421447727-8g69ue3s9b1mmff7qk3a4ju1p9clb438.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
