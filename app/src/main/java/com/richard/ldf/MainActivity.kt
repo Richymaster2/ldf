@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -15,6 +16,7 @@ import com.google.firebase.auth.PhoneAuthProvider
 import java.util.concurrent.TimeUnit
 
 class MainActivity : AppCompatActivity() {
+
     lateinit var auth: FirebaseAuth
     lateinit var storedVerificationId:String
     lateinit var resendToken: PhoneAuthProvider.ForceResendingToken
@@ -77,7 +79,7 @@ class MainActivity : AppCompatActivity() {
             number="+254"+number
             sendVerificationcode (number)
         }else{
-            Toast.makeText(this,"Enter mobile number", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Enter mobile number",Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -90,3 +92,4 @@ class MainActivity : AppCompatActivity() {
             .build()
         PhoneAuthProvider.verifyPhoneNumber(options)
     }
+}
